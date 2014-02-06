@@ -12,8 +12,8 @@ describe String do
 		before(:all) do
 			@my_string = "Renée is a fun teacher. Ruby is a really cool programming language"
 		end
-		it "should be able to count the charaters" do
-			"Doga".should have(4).charaters
+		it "should be able to count the characters" do
+			"Doga".should have(4).characters
 		end
 
 		it "should be able to split on the . charater" do
