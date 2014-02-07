@@ -3,7 +3,7 @@ class Monster
 	include NamedThing
 	attr_accessor :vulnerabilities, :dangers
     attr_reader :nocturnal, :legs
-	
+
 	def initialize(noc, legs, name="Monster", vul = [], dangers = [])
 		super(name)
 		@nocturnal = noc
@@ -11,4 +11,10 @@ class Monster
 		@dangers = dangers
 		@legs = legs
 	end
-end	
+
+	def attack! human
+    puts "hi from Monster"
+    super
+  end
+
+end
