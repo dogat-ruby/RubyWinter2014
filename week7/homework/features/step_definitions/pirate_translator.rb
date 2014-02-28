@@ -9,8 +9,7 @@ class PirateTranslator
 	end
 
 	def translate
-		TRANSLATION[@input]
-		"Shiber Me Timbers You Scurvey Dogs!!"
+		TRANSLATION[@input] + "\n Shiber Me Timbers You Scurvey Dogs!!"
 	end 
 
 end
